@@ -1,0 +1,140 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    /*margin: auto;*/
+}
+
+body {
+    max-width: 1366px;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    /*margin: 0 auto;*/
+    text-align: center
+    /*display: block;*/
+}
+
+section {
+    padding: 30px 0px;
+    background-color: #F9F9F9
+}
+
+.heroSection {
+    background: url("Images/Hero_Blue_Confetti.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    padding-top: 80px;
+}
+
+.heroSection img {
+    width: 40px;
+}
+
+.frontHead {
+    background: linear-gradient(90deg, #1588C9 0%, #1588C9 40%, #000000 60%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+
+.shopMac {
+    font-size: 24px;
+    line-height: 110%;
+    font-weight: 500;
+    background-color: #F9F9F9;
+}
+
+.adSec {
+    display: flex;
+}
+
+.tryMac {
+    display: flex;
+    justify-content: space-around;
+}
+
+.entry {
+    line-height: 0%;
+}
+
+.switch {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 5px;
+    flex-grow: 9;
+}
+
+.switch p img {
+    height: 14px;
+}
+
+.productImage {
+    /*width: 100%;*/
+}
+
+div {
+    align-items: center;
+}
+
+.div2 h2 {
+    background: linear-gradient(90deg, #E5114C, #F3A8FF, #DC2392);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: 1px #1588C9 solid;
+    padding: 7px 18px;
+    border-radius: 4px;
+    background-color: #00000000;
+    color: #1588C9;
+}
+
+.lockUpImage {
+    height: 20px;
+}
+
+.div1 {
+    background-color: lightgray;
+}
+
+.div1, .div2 {
+    border-radius: 20px;
+    padding: 10%;
+    margin: 0 5px;
+}
+
+.div1 {
+    background: #ffffff;
+}
+
+.div2 {
+    background: radial-gradient(#20011311, #47052b); /* #75385B */
+    /* #E5114C #F3A8FF #DC2392 */
+}
+
+.swiper-slide {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.swiper-slide p {
+    font-size: 12px;
+    margin-top: 0%;
+}
+
+@media screen and (max-width: 820px) {
+    /**/
+}
+
+@media screen and (max-width: 610px) {
+    /**/
+}
