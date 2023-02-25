@@ -47,6 +47,16 @@ section {
     background-color: #F9F9F9;
 }
 
+.sectionTitle {
+    font-size: 28px;
+    line-height: 110%;
+    font-weight: 200;
+}
+
+.sectionTitle strong {
+    font-weight: 700;
+}
+
 .adSec {
     display: flex;
 }
@@ -131,10 +141,18 @@ button {
     margin-top: 0%;
 }
 
+/* Start of Tablet screen mode styling */
+
 @media screen and (max-width: 820px) {
     /**/
 }
 
+/* End of Tablet screen mode styling */
+
+/* Start of Mobile screen mode styling */
+
 @media screen and (max-width: 610px) {
     /**/
 }
+
+/* End of Mobile screen mode styling */
