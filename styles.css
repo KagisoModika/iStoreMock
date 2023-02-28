@@ -61,6 +61,15 @@ section {
     display: flex;
 }
 
+.macSec h1 {
+    text-align: left;
+    padding: 0px 5%;
+}
+
+.secTitle2 span {
+    font-weight: 200;
+}
+
 .tryMac {
     display: flex;
     justify-content: space-around;
