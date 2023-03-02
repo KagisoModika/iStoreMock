@@ -33,6 +33,11 @@ section {
     width: 40px;
 }
 
+.overlay {
+    right: 0;
+    width: 200px !important;
+}
+
 .frontHead {
     background: linear-gradient(90deg, #1588C9 0%, #1588C9 40%, #000000 60%, #000000 100%);
     -webkit-background-clip: text;
