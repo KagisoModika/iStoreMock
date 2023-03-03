@@ -22,15 +22,13 @@ section {
 
 .heroSection {
     background: url("Images/Hero_Blue_Confetti.png");
-    background-size: cover;
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 250px;
+    height: 300px;
     padding-top: 80px;
-}
-
-.heroSection .back {
-    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .overlay {
