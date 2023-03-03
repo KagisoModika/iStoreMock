@@ -29,8 +29,8 @@ section {
     padding-top: 80px;
 }
 
-.heroSection img {
-    width: 40px;
+.heroSection .back {
+    width: 100%;
 }
 
 .overlay {
