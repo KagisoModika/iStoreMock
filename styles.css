@@ -1,6 +1,7 @@
 * {
     font-family: 'Manrope', sans-serif;
     /*margin: auto;*/
+    scroll-behavior: smooth;
 }
 
 body {
@@ -29,11 +30,14 @@ section {
     padding-top: 80px;
     top: 0;
     left: 0;
+    overflow: hidden;
 }
 
 .overlay {
-    right: 0;
+    right: 5%;
     width: 200px !important;
+    position: absolute;
+    top: 29%;
 }
 
 .frontHead {
