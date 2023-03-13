@@ -23,21 +23,25 @@ section {
 
 .heroSection {
     background: url("Images/Hero_Blue_Confetti.png");
-    background-size: 90%;
+    background-size: 110%;
+    padding: 0% !important;
     background-repeat: no-repeat;
-    background-position: center;
     height: 300px;
-    padding-top: 80px;
+    /** padding-top: 80px; */
     top: 0;
     left: 0;
-    overflow: hidden;
+}
+
+#hero {
+    top: 0;
+    background: linear-gradient(180deg, #ffffff, rgb(226, 226, 226));
 }
 
 .overlay {
     right: 5%;
     width: 200px !important;
     position: absolute;
-    top: 29%;
+    top: 21.5%;
 }
 
 .frontHead {
