@@ -22,14 +22,15 @@ section {
 }
 
 .heroSection {
-    background: url("Images/Hero_Blue_Confetti.png");
-    background-size: 110%;
-    padding: 0% !important;
-    background-repeat: no-repeat;
-    height: 300px;
-    /** padding-top: 80px; */
+    background: url("Images/Hero_Blue_Confetti.png") left top no-repeat, url("Images/Hero_Shopping_Bag.png") right bottom no-repeat;
+    background-size: 80%, 15%;
+    height: 100%;
+    /**padding: 0% !important;
+    background-repeat: no-repeat; 
+    height: 300px; */
+    /** padding-top: 80px;
     top: 0;
-    left: 0;
+    left: 0;*/
 }
 
 #hero {
