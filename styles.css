@@ -24,9 +24,9 @@ section {
 .heroSection {
     background: url("Images/Hero_Blue_Confetti.png") left top no-repeat, url("Images/Hero_Shopping_Bag.png") right bottom no-repeat;
     background-size: 80%, 15%;
-    height: 100%;
-    /**padding: 0% !important;
-    background-repeat: no-repeat; 
+    height: 300px;
+    margin: -30px 30px !important;
+    /** background-repeat: no-repeat; 
     height: 300px; */
     /** padding-top: 80px;
     top: 0;
