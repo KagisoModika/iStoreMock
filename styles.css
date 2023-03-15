@@ -24,7 +24,7 @@ section {
 .heroSection {
     background: url("Images/Hero_Blue_Confetti.png") left top no-repeat, url("Images/Hero_Shopping_Bag.png") right bottom no-repeat;
     background-size: 80%, 15%;
-    height: 300px;
+    height: 450px;
     margin: -30px 30px !important;
     /** background-repeat: no-repeat; 
     height: 300px; */
@@ -69,8 +69,8 @@ section {
     font-weight: 700;
 }
 
-.adSec {
-    display: flex;
+.macSec {
+    display: flexbox;
 }
 
 .macSec h1 {
@@ -82,9 +82,21 @@ section {
     font-weight: 200;
 }
 
+.macBanners {
+    display: flex;
+    height: 350px;
+    padding: 0;
+}
+
+.lockUp {
+    max-height: 250px;
+    margin: 0;
+}
+
 .tryMac {
     display: flex;
     justify-content: space-around;
+    height: 200px;
 }
 
 .blockTitle {
