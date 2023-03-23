@@ -89,14 +89,21 @@ section {
     margin: 0;
 }
 
-.lockUp {
+.macBanners h2 {
+    margin: 0;
+    padding: 0;
+}
+
+[class*="lockUp"] {
     max-height: 250px;
     margin: 0;
+    background: #000000;
 }
 
 .tryMac {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 350px;
 }
 
 .blockTitle {
@@ -127,7 +134,8 @@ section {
 
 .switch {
     background: #ffffff;
-    padding: 20px;
+    padding-top: 20px;
+    max-height: 300px;
     border-radius: 30px;
     margin: 5px;
     flex-grow: 9;
@@ -137,8 +145,14 @@ section {
     height: 14px;
 }
 
-.productImage {
-    /*width: 100%;*/
+/* .productImage {
+    max-width: 100%;
+    height: auto;
+} */
+
+.faster .productImage, .microsoft365 .productImage {
+    max-width: 250px;
+    height: auto;
 }
 
 div {
