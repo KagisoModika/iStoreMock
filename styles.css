@@ -71,11 +71,12 @@ section {
 
 .macSec {
     display: flexbox;
+    height: 100%;
 }
 
 .macSec h1 {
     text-align: left;
-    padding: 0px 5%;
+    padding: 20px 5%;
 }
 
 .secTitle2 span {
@@ -84,8 +85,8 @@ section {
 
 .macBanners {
     display: flex;
-    height: 350px;
     padding: 0;
+    margin: 0;
 }
 
 .lockUp {
@@ -96,7 +97,6 @@ section {
 .tryMac {
     display: flex;
     justify-content: space-around;
-    height: 200px;
 }
 
 .blockTitle {
