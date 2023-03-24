@@ -128,27 +128,27 @@ section {
     font-weight: 700;
 }
 
-.entry {
-    line-height: 0%;
-}
-
 .switch {
     background: #ffffff;
-    padding-top: 20px;
-    max-height: 300px;
+    padding: 20px 0;
+    height: 350px;
     border-radius: 30px;
     margin: 5px;
     flex-grow: 9;
+}
+
+.switch p {
+    margin-bottom: -15px;
 }
 
 .switch p img {
     height: 14px;
 }
 
-/* .productImage {
-    max-width: 100%;
-    height: auto;
-} */
+.productImage {
+    max-height: 200px;
+    width: auto;
+}
 
 .faster .productImage, .microsoft365 .productImage {
     max-width: 250px;
