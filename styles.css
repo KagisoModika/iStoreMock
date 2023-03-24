@@ -153,6 +153,8 @@ section {
 .faster .productImage, .microsoft365 .productImage {
     max-width: 250px;
     height: auto;
+    overflow: hidden;
+    padding-bottom: 10px;
 }
 
 div {
