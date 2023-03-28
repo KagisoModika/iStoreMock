@@ -104,11 +104,21 @@ section {
 .banner p {
     margin: 0;
     padding: 0 180px;
-    color: #ffffff;
 }
 
 .banner img:not(.lockUpImage) {
     max-height: 50%;
+}
+
+.macbookPro {
+    background: #ffffff;
+    width: 50%;
+}
+
+.macbookAir {
+    width: 50%;
+    background: radial-gradient(#0c0107, #3d0325); /* #75385B */
+    /* #E5114C #F3A8FF #DC2392 */
 }
 
 .macbookAir h2 {
@@ -117,9 +127,8 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-.macbookAir {
-    background: radial-gradient(#0c0107, #3d0325); /* #75385B */
-    /* #E5114C #F3A8FF #DC2392 */
+.macbookAir p {
+    color: #ffffff;
 }
 
 .tryMac {
@@ -145,6 +154,10 @@ section {
     font-size: 26px;
     line-height: 110%;
     font-weight: 800;
+}
+
+.macbookPro .blockPricing {
+    color: #000000;
 }
 
 .blockPricing small {
