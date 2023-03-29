@@ -103,11 +103,11 @@ section {
 
 .banner p {
     margin: 0;
-    padding: 0 180px;
+    padding: 0 120px;
 }
 
 .banner img:not(.lockUpImage) {
-    max-height: 50%;
+    max-width: 70%;
 }
 
 .macbookPro {
@@ -117,7 +117,7 @@ section {
 
 .macbookAir {
     width: 50%;
-    background: radial-gradient(#0c0107, #3d0325); /* #75385B */
+    background: radial-gradient(#3d0325, #0c0107 ); /* #75385B */
     /* #E5114C #F3A8FF #DC2392 */
 }
 
@@ -129,6 +129,10 @@ section {
 
 .macbookAir p {
     color: #ffffff;
+}
+
+.macbookAir .blockPricing {
+    margin: 10px;
 }
 
 .tryMac {
