@@ -115,6 +115,11 @@ section {
     width: 50%;
 }
 
+.macbookPro img:not(.lockUpImage) {
+    max-width: 65%;
+    margin-top: 10px;
+}
+
 .macbookAir {
     width: 50%;
     background: radial-gradient(#3d0325, #0c0107 ); /* #75385B */
