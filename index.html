@@ -29,11 +29,14 @@
         <section class="shopMac">
             <h2 class="sectionTitle">Shop <strong>Mac</strong></h2>
             <!-- Start of Section for SwiperJS -->
-            <!-- <script type="module">
-                import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-              
-                const swiper = new Swiper(...)
-            </script>        -->      
+            <script type="module">
+                // import Swiper JS
+                import Swiper from 'swiper';
+                // import Swiper styles
+                import 'swiper/css';
+
+                const swiper = new Swiper(...Swiper);
+            </script>  
             <!-- Slider main container -->
             <div class="swiper">
                 <!-- Additional required wrapper -->
@@ -100,9 +103,9 @@
                     virtual: {
                     enabled: true,
                     },
-                });*/
+                });
 
-                const swiper = document.querySelector('.swiper').swiper;
+                const swiper = document.querySelector('.swiper').swiper;*/
 
                 // Now you can use all slider methods like
                 swiper.slideNext();
