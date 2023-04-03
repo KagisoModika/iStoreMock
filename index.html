@@ -29,27 +29,19 @@
         <section class="shopMac">
             <h2 class="sectionTitle">Shop <strong>Mac</strong></h2>
             <!-- Start of Section for SwiperJS -->
+            <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+            />
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
             <script type="module">
-                // import Swiper JS
-                import Swiper from 'swiper';
-                // import Swiper styles
-                import 'swiper/css';
+                import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+              
+                //const swiper = new Swiper(...)
+            </script>              
 
-                //const swiper = new Swiper(...Swiper);
-
-                // core version + navigation, pagination modules:
-                import Swiper, { Navigation, Pagination } from 'swiper';
-                // import Swiper and modules styles
-                import 'swiper/css';
-                import 'swiper/css/navigation';
-                import 'swiper/css/pagination';
-
-                // init Swiper:
-                const swiper = new Swiper('.swiper', {
-                    // configure Swiper to use modules
-                    modules: [Navigation, Pagination]
-                });
-            </script>  
             <!-- Slider main container -->
             <div class="swiper">
                 <!-- Additional required wrapper -->
@@ -112,16 +104,27 @@
             </div>
             
             <script>           
-                /*const swiper = new Swiper('.swiper', {
-                    virtual: {
-                    enabled: true,
-                    },
-                });
+                const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
 
-                const swiper = document.querySelector('.swiper').swiper;*/
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
 
-                // Now you can use all slider methods like
-                swiper.slideNext();
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // And if we need scrollbar
+                /* scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+                }); */
             </script>
 
             <!-- End of Section for SwiperJS -->
