@@ -249,7 +249,8 @@ button {
   
 
 .swiper-slide {
-    display: inline-block;
+    display: flex;
+    height: auto;
     padding: 0 10px;
 }
 
