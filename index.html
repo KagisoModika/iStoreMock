@@ -55,39 +55,39 @@
                         <img src="Images/Custom_Mac_Ico.png" alt="Custom_Mac_Ico">
                         <p>Custom Mac</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" role="group" aria-label="3 / 11">
                         <img src="Images/MacBook_Air_M2_Ico.png" alt="Mac Air M2">
                         <p>MacBook Air M2</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" role="group" aria-label="4 / 11">
                         <img src="Images/MacBook_Air_Ico.png" alt="Explore_Mac_Ico">
                         <p>MacBook Air</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" role="group" aria-label="5 / 11">
                         <img src="Images/MacBook_Pro_13M2_Ico.png" alt="Explore_Mac_Ico">
                         <p>MacBook Pro 13Inch M2</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" role="group" aria-label="6 / 11">
                         <img src="Images/MacBook_Pro_14_Ico.png" alt="MacBook Pro 14">
                         <p>MacBook Pro 14-inch</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" role="group" aria-label="7 / 11">
                         <img src="Images/MacBook_Pro_16_Ico.png" alt="MacBook Pro 16">
                         <p>MacBook Pro 16-inch</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" role="group" aria-label="8 / 11">
                         <img src="Images/Mac_Studio_Ico.png" alt="Mac Studio">
                         <p>Mac Studio</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" role="group" aria-label="9 / 11">
                         <img src="Images/Mac_mini_Ico.png" alt="Mac mini">
                         <p>Macmini</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" role="group" aria-label="10 / 11">
                         <img src="Images/iMac_24Inch_Ico.png" alt="iMac 24Inch">
                         <p>iMac 24-inch</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" role="group" aria-label="11 / 11">
                         <img src="Images/Mac_Accessories_Ico.png" alt="Mac Accessories">
                         <p>Mac Accessories</p>
                     </div>
@@ -105,6 +105,8 @@
             
             <script>           
                 const swiper = new Swiper('.swiper', {
+                    slidesPerView: 13,
+                    spaceBetween: 10,
                     // Optional parameters
                     direction: 'horizontal',
                     loop: true,
@@ -112,6 +114,7 @@
                     // If we need pagination
                     pagination: {
                         el: '.swiper-pagination',
+                        clickable: true,
                     },
 
                     // Navigation arrows
