@@ -260,6 +260,11 @@ button {
     margin-top: 0%;
 }
 
+.swiper-slide img {
+    max-width: 25px;
+    height: auto;
+}
+
 /* Start of Tablet screen mode styling */
 
 @media screen and (max-width: 820px) {
